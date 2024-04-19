@@ -530,7 +530,7 @@ input[type='number'] {
 }
 
 .sun-image {
-  background-image: url('sun.png');
+  background-image: url('images/sun.png');
   height: 140%;
   width: 100%;
   background-repeat: no-repeat;
