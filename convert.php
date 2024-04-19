@@ -4,7 +4,7 @@ if(isset($_FILES['images'])){
     $response = []; // Array para almacenar la respuesta
 
     // Directorio de destino para guardar las imágenes convertidas
-    $uploadDir = 'C:/MAMP/htdocs/YSAAS/uploads/';
+    $uploadDir = 'uploads/';
     if(!is_dir($uploadDir)){
         mkdir($uploadDir, 0777, true); // Crear el directorio si no existe
     }
